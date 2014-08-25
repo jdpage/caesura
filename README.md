@@ -1,8 +1,8 @@
 Caesura: an API for your music
 ==============================
 
-> *cæsura /siːˈʒjʊərə/, n.* A pause or interruption in a poem, music, building
-> or other work of art.
+> **cæsura /siːˈʒjʊərə/, n.** A pause or interruption in a poem, music,
+> building or other work of art.
 
 Caesura is a server which provides a REST-style API for retrieving audio data
 and metadata. It's targeted firstly at music, but the data model should be
