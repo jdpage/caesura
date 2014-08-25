@@ -1,3 +1,8 @@
+"""API endpoints
+"""
+__author__ = "Jonathan David Page"
+__copyright__ = "Copyright 2014, Jonathan David Page"
+
 import aiohttp
 import aiohttp.server
 import asyncio
@@ -81,7 +86,7 @@ class NotFoundEndpoint(Endpoint):
 class ServerInfoEndpoint(Endpoint):
     def handle_get(self, message, *args, **kwargs):
         result = {
-            'api_levels': ["%d.%d" % v for v in API_LEVELS],
+            'api_levels': ["%d.%d.%d" % v for v in API_LEVELS],
             'endpoints': ["metadata", "audio", "users"],
         }
         return (yield from self.respond(result))

@@ -1,3 +1,8 @@
+"""HTTP server component.
+"""
+__author__ = "Jonathan David Page"
+__copyright__ = "Copyright 2014, Jonathan David Page"
+
 import logging
 import asyncio
 from aiohttp.server import ServerHttpProtocol
